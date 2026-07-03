@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gallery | TrueCare Clinic | Departments in Pictures</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse a filterable gallery of TrueCare Clinic departments, from cardiology and dental care to eye care and pediatrics.">
+  <meta name="keywords" content="clinic gallery, health care pictures, department photos">
+  <link rel="canonical" href="https://papaya-starburst-5de6d2.netlify.app/gallery.html">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="TrueCare Clinic">
+  <meta property="og:title" content="Gallery | TrueCare Clinic">
+  <meta property="og:description" content="Browse a filterable gallery of TrueCare Clinic departments, from cardiology and dental care to eye care and pediatrics.">
+  <meta property="og:url" content="https://papaya-starburst-5de6d2.netlify.app/gallery.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517948430535-1e2469d314fe?auto=format&amp;fit=crop&amp;w=1200&amp;q=80">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gallery | TrueCare Clinic">
+  <meta name="twitter:description" content="Browse a filterable gallery of TrueCare Clinic departments, from cardiology and dental care to eye care and pediatrics.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1517948430535-1e2469d314fe?auto=format&amp;fit=crop&amp;w=1200&amp;q=80">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Analytics: replace G-XXXXXXXXXX with your real GA4 Measurement ID before going live -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+
+<div class="header">
+  <h1>TrueCare Clinic</h1>
+</div>
+
+<div class="nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="appointment.html">Appointment</a>
+</div>
+
+<div class="banner">
+  <h2>TrueCare Clinic Photo Gallery</h2>
+</div>
+
+<div class="container">
+  <p>Take a look inside TrueCare Clinic. Use the filters below to browse photos from each department, or select "All" to see every department at once. All images are also described with alt text for screen reader and search engine accessibility.</p>
+</div>
+
+<div class="container galleryControls">
+  <button class="btn" onclick="filterGallery('all')">All</button>
+  <button class="btn" onclick="filterGallery('heart')">Cardiology</button>
+  <button class="btn" onclick="filterGallery('teeth')">Dental</button>
+  <button class="btn" onclick="filterGallery('eye')">Eye Care</button>
+  <button class="btn" onclick="filterGallery('kids')">Pediatrics</button>
+  <button class="btn" onclick="filterGallery('general')">General Medicine</button>
+  <br>
+
+  <img class="galleryItem heart" src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Cardiology department at TrueCare Clinic">
+  <img class="galleryItem teeth" src="https://images.unsplash.com/photo-1550985543-f1ea83691cd8?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Dental care department at TrueCare Clinic">
+  <img class="galleryItem eye" src="https://images.unsplash.com/photo-1517948430535-1e2469d314fe?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Eye care department at TrueCare Clinic">
+  <img class="galleryItem kids" src="https://images.unsplash.com/photo-1758691463080-30a990ef61bb?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="Pediatrics department at TrueCare Clinic">
+  <img class="galleryItem general" src="https://images.unsplash.com/photo-1758691462814-485c3672e447?auto=format&amp;fit=crop&amp;w=400&amp;q=80" alt="General medicine department at TrueCare Clinic">
+</div>
+
+<div class="footer">
+  <p>TrueCare Clinic &copy; 2026</p>
+  <p>Email: care@truecareclinic.com | Phone: +91 9876543210</p>
+  <p>Address: 12 Health Street, Nellore, Andhra Pradesh</p>
+  <p class="credit">Photos from Unsplash contributors</p>
+</div>
+
+<script src="script.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6a4760a38c45b31d46f2177f/1jsjd30ji';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
